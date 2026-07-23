@@ -1,3 +1,13 @@
+# HOW DO HIGHER-ORDER FUNCTIONS ENABLE CODE REUSE AND COMPOSITION?
+# Higher order functions enable code reuse by taking other functions
+# as arguments or return new functions, implementing the same logic
+# into multiple times.
+
+# WHAT MAKES FUNCTIONS "FIRST-CLASS CITIZENS" IN PYTHON?
+# Functions are "first-class citizens" because they are treated like
+# any other value. You can assign them to a variable, use them as
+# arguments, return other functions and save them in lists.
+
 from collections.abc import Callable
 
 
