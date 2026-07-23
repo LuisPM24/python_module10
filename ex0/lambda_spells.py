@@ -1,3 +1,9 @@
+# HOW DO LAMBDA EXPRESSIONS MAKE CODE MORE CONCISE?
+# Lambda expressions make code more concise by use less amount of
+# lines for the same purpose that a 'for' loop. You should use
+# lambda expressions on simple loops that doesn't require a many
+# lines of code.
+
 def artifact_sorter(artifacts: list[dict]) -> list[dict]:
     return sorted(artifacts, key=lambda artifact: artifact["power"],
                   reverse=True)
