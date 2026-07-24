@@ -8,6 +8,10 @@
 # any other value. You can assign them to a variable, use them as
 # arguments, return other functions and save them in lists.
 
+# It's recommended to use Callable from collections.abc instead of
+# typing.Callable because the last one is deprecated for modern
+# python ( >= 3.9 )
+
 from collections.abc import Callable
 
 
@@ -17,10 +21,6 @@ def cure(target: str, power: int) -> str:
 
 def fire(target: str, power: int) -> str:
     return f"Fire hits {target}, dealing {power} damage"
-
-
-def is_powerful(power: int) -> bool:
-    return power >= 50
 
 
 def condition(target: str, power: int) -> bool:
